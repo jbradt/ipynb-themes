@@ -1,0 +1,86 @@
+// --------------------------------------------------------
+// IPython Notebook theme based on Atom editor's One Light
+//     (with custom fonts)
+// --------------------------------------------------------
+
+@import url(http://fonts.googleapis.com/css?family=Fira+Mono:400,700&subset=latin,greek,latin-ext);
+@import url(http://fonts.googleapis.com/css?family=Crimson+Text:400,400italic,700,700italic&subset=latin,latin-ext);
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic&subset=latin,latin-ext);
+
+// Config -----------------------------------
+@syntax-hue:          220;
+@syntax-saturation:   13%;
+@syntax-brightness:   18%;
+
+// Monochrome -----------------------------------
+@black: black; // default text
+@comment: #a2a2a2;
+
+// Colors ------------------------------------
+@cyan:   hsl(198, 99%, 37%); // <-cyan
+@blue:   hsl(221, 87%, 60%); // <-blue
+@purple:   hsl(301, 63%, 40%); // <-purple
+@green:   hsl(119, 34%, 47%); // <-green
+
+@red:   hsl(  5, 74%, 59%); // <-red 1
+@red-2: hsl(344, 84%, 43%); // <-red 2
+
+@orange:   hsl(41, 99%, 30%); // <-orange 1
+@orange-2: hsl(41, 99%, 38%); // <-orange 2
+
+.CodeMirror pre {
+    font-family: "Fira Mono", "Monaco", "Inconsolata", "Courier", monospace;
+}
+
+div.text_cell_render {
+    font-family: "Crimson Text";
+    font-size: 12pt;
+}
+
+div.text_cell_render h1,
+div.text_cell_render h2,
+div.text_cell_render h3,
+div.text_cell_render h4,
+div.text_cell_render h5,
+div.text_cell_render h6 {
+    font-family: 'Lato';
+    font-weight: 400;
+}
+
+span.ansired {color: @red;}
+span.ansiblue {color: @blue;}
+span.ansiyellow {color: @orange;}
+span.ansigreen {color: @green;}
+span.ansipurple {color: @purple;}
+span.ansiblack {color: @black;}
+span.ansigray {color: rgb(90, 90, 90)}
+
+div.input_area {
+    border: none;
+}
+
+.output_area pre {
+    font-family: "Fira Mono", "Monaco", "Inconsolata", "Courier", monospace;
+}
+
+.cm-s-ipython span.cm-comment {color: @comment;}
+.cm-s-ipython span.cm-atom {color: @purple;}
+.cm-s-ipython span.cm-number {color: @orange;}
+.cm-s-ipython span.cm-meta {color: @blue}
+
+.cm-s-ipython span.cm-property, .cm-s-ipython span.cm-attribute {color: #01a252;}
+.cm-s-ipython span.cm-keyword {color: @purple; font-weight: inherit !important;}
+.cm-s-ipython span.cm-string {color: @green;}
+.cm-s-ipython span.cm-operator {color: @black;}
+.cm-s-ipython span.cm-builtin {color: @cyan;}
+
+.cm-s-ipython span.cm-variable {color: @black;}
+.cm-s-ipython span.cm-variable-2 {color: @red;}
+.cm-s-ipython span.cm-def {color: @blue;}
+.cm-s-ipython span.cm-error {background: @red; color: white;}
+.cm-s-ipython span.cm-bracket {color: @black;}
+.cm-s-ipython span.cm-tag {color: @red;}
+.cm-s-ipython span.cm-link {color: @purple;}
+
+.cm-s-ipython .CodeMirror-matchingbracket {color: @cyan !important;}
+.cm-s-ipython .CodeMirror-nonmatchingbracket {color: white; background: @red;}

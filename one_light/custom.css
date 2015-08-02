@@ -1,0 +1,104 @@
+@import url(http://fonts.googleapis.com/css?family=Fira+Mono:400,700&subset=latin,greek,latin-ext);
+@import url(http://fonts.googleapis.com/css?family=Crimson+Text:400,400italic,700,700italic&subset=latin,latin-ext);
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic&subset=latin,latin-ext);
+.CodeMirror pre {
+  font-family: "Fira Mono", "Monaco", "Inconsolata", "Courier", monospace;
+}
+div.text_cell_render {
+  font-family: "Crimson Text";
+  font-size: 12pt;
+}
+div.text_cell_render h1,
+div.text_cell_render h2,
+div.text_cell_render h3,
+div.text_cell_render h4,
+div.text_cell_render h5,
+div.text_cell_render h6 {
+  font-family: 'Lato';
+  font-weight: 400;
+}
+span.ansired {
+  color: #e45649;
+}
+span.ansiblue {
+  color: #4078f2;
+}
+span.ansiyellow {
+  color: #986801;
+}
+span.ansigreen {
+  color: #50a14f;
+}
+span.ansipurple {
+  color: #a626a4;
+}
+span.ansiblack {
+  color: black;
+}
+span.ansigray {
+  color: #5a5a5a;
+}
+div.input_area {
+  border: none;
+}
+.output_area pre {
+  font-family: "Fira Mono", "Monaco", "Inconsolata", "Courier", monospace;
+}
+.cm-s-ipython span.cm-comment {
+  color: #a2a2a2;
+}
+.cm-s-ipython span.cm-atom {
+  color: #a626a4;
+}
+.cm-s-ipython span.cm-number {
+  color: #986801;
+}
+.cm-s-ipython span.cm-meta {
+  color: #4078f2;
+}
+.cm-s-ipython span.cm-property,
+.cm-s-ipython span.cm-attribute {
+  color: #01a252;
+}
+.cm-s-ipython span.cm-keyword {
+  color: #a626a4;
+  font-weight: inherit !important;
+}
+.cm-s-ipython span.cm-string {
+  color: #50a14f;
+}
+.cm-s-ipython span.cm-operator {
+  color: black;
+}
+.cm-s-ipython span.cm-builtin {
+  color: #0184bc;
+}
+.cm-s-ipython span.cm-variable {
+  color: black;
+}
+.cm-s-ipython span.cm-variable-2 {
+  color: #e45649;
+}
+.cm-s-ipython span.cm-def {
+  color: #4078f2;
+}
+.cm-s-ipython span.cm-error {
+  background: #e45649;
+  color: white;
+}
+.cm-s-ipython span.cm-bracket {
+  color: black;
+}
+.cm-s-ipython span.cm-tag {
+  color: #e45649;
+}
+.cm-s-ipython span.cm-link {
+  color: #a626a4;
+}
+.cm-s-ipython .CodeMirror-matchingbracket {
+  color: #0184bc !important;
+}
+.cm-s-ipython .CodeMirror-nonmatchingbracket {
+  color: white;
+  background: #e45649;
+}
