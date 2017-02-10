@@ -1,11 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=Fira+Mono:400,700&subset=latin,greek,latin-ext);
-@import url(https://fonts.googleapis.com/css?family=Crimson+Text:400,400italic,700,700italic&subset=latin,latin-ext);
-@import url(https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic&subset=latin,latin-ext);
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans:400,700,400italic,700italic&subset=latin,latin-ext);
 .CodeMirror pre {
   font-family: "Fira Mono", "Monaco", "Inconsolata", "Courier", monospace;
 }
 div.text_cell_render {
-  font-family: "Crimson Text";
+  font-family: "Fira Sans", "Helvetica", "Arial", sans-serif;
   font-size: 12pt;
 }
 div.text_cell_render h1,
@@ -14,7 +13,7 @@ div.text_cell_render h3,
 div.text_cell_render h4,
 div.text_cell_render h5,
 div.text_cell_render h6 {
-  font-family: 'Lato';
+  font-family: 'Fira Sans', "Helvetica", "Arial", sans-serif;
   font-weight: 400;
 }
 span.ansired {
@@ -55,10 +54,6 @@ div.input_area {
 }
 .cm-s-ipython span.cm-meta {
   color: #4078f2;
-}
-.cm-s-ipython span.cm-property,
-.cm-s-ipython span.cm-attribute {
-  color: #01a252;
 }
 .cm-s-ipython span.cm-keyword {
   color: #a626a4;
